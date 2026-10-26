@@ -1,0 +1,25 @@
+name: daily_schedule_app
+description: تطبيق جدول يومي تفاعلي يعمل محليًا دون إنترنت.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.3.2
+  intl: ^0.20.3
+  flutter_local_notifications: ^17.2.4
+  timezone: ^0.9.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
